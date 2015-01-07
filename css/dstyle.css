@@ -1,0 +1,617 @@
+@font-face {
+    font-family: 'titillium_weblight';
+    src: url('../fonts/titilliumweb-light-webfont.eot');
+    src: url('../fonts/titilliumweb-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titilliumweb-light-webfont.woff') format('woff'),
+         url('../fonts/titilliumweb-light-webfont.ttf') format('truetype'),
+         url('../fonts/titilliumweb-light-webfont.svg#titillium_weblight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: Verdana !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (max-width: 460px) {	
+	.wishlist-box {
+		background: url('../images/wishlist-smallbox.png') no-repeat!important;
+		width:305px!important;
+		height:91px;
+		position:relative;
+	}
+}
+
+@media (max-width: 980px) {
+	.select-pad {
+		padding:0!important;
+	}
+}
+
+@media (max-width: 768px) {
+  .blue-header {
+	font-size:23px;
+  }
+  
+  .select-pad {
+	padding:0 !important;
+  }
+  
+  .numberCircle {
+	border-radius: 50%;
+	width: 36px !important;
+	height: 36px !important;
+	padding: 8px;
+	background: #84888f;
+	color: #2c3640;
+	text-align: center;
+	font: 18px Arial, sans-serif !important;
+	font-weight: bold;
+	}
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.browsebg{
+     background: url('../images/background/browse/browse.jpg') no-repeat top right; 
+	 max-width: 100%; /* or any other value */
+     height: 489px;
+	 background-size: cover;
+	 position:relative;
+}  
+.descriptionbg{
+     background: url('../images/background/description/description.jpg') no-repeat top right; 
+	 max-width: 100%; /* or any other value */
+     height: 489px;
+	 background-size: cover;
+	 position:relative;
+}
+  
+.integratebg {	
+     background: url('../images/background/integrate/integrate.jpg') no-repeat top right; 
+	 max-width: 100%; /* or any other value */
+     height: 489px;
+	 background-size: cover;
+	 position:relative;
+}
+.helpbg{
+     background: url('../images/background/help/help.jpg') no-repeat top right; 
+	 max-width: 100%; /* or any other value */
+     height: 489px;
+	 background-size: cover;
+	 position:relative;
+}  
+.wishlistbg{
+     background: url('../images/background/wishlist/wishlist.jpg') no-repeat top right; 
+	 max-width: 100%; /* or any other value */
+     height: 489px;
+	 background-size: cover;
+	 position:relative;
+}  
+
+.homemostviewed{
+    background-color: #B9BBBF;
+}
+.home_about_idata{
+    background-color: #E4E6E9;
+}
+.home_footer{
+   background-color: #EFF7FA;
+}
+.row {
+	margin:0 !important;
+}
+.titilium-header {
+	font-family: titillium_weblight,Verdana;
+	font-size:35px;
+	color:#ffffff;
+	line-height:1.2;
+}
+
+.titilium-body-header {
+	font-family: titillium_weblight,Verdana;
+	font-size:35px;
+	color:#5d646c;
+	line-height:1.2;
+}
+
+.titilium-thick {
+	font-family: titillium_weblight,Verdana;
+	font-size:46px;
+	color:#fff;
+	line-height:1.2;
+	font-weight: bold;
+}
+
+.titilium-subheader {
+	font-family: titillium_weblight,Verdana;
+	font-size:17px;
+	color:#ffffff;
+	line-height:1.2;
+}
+
+.top-subheader {
+	position: relative;
+	top: 9px;
+}
+
+.blue-header {
+	color:#001965 !important;
+}
+
+.help-header {
+	color:#001965 !important;
+}
+
+.titilium-little-header {
+	font-family: titillium_weblight,Verdana;
+	font-size:25px;
+	color:#ffffff;
+	line-height:1.2;
+}
+
+.simple-text {
+	color:#fff;
+	font-size:13px;
+	font-family:Verdana;
+	padding:0 15px 0 0;
+}
+
+.simple-small-text{	
+	color:#fff;
+	font-size:11px;
+	font-family:Verdana;
+	padding:0 15px 0 0;
+}
+
+.pad-header {
+	position: relative;
+	top: 70px;
+}
+.row-gap {
+	height:20px;
+}
+
+.search-box {
+	background-color: #475158;
+	border: 1px solid #84898d;
+	height:42px;
+	padding-left:20px;
+	color:#fff;
+	width:100%;
+}
+.search-div {
+	width:65%;
+	padding-right: 20px;	
+    /*overflow: hidden;*/
+}
+
+.search-div-xs {
+	width:100%;
+}
+
+.menu-buttons, .wish-menu-buttons {
+	height:42px;
+	font-family: titillium_weblight;
+	font-size: 18px;	
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 6px;
+	cursor:pointer;
+}
+
+.menu-buttons-std, .wish-menu-buttons-std {	
+	background-color: #475158;
+	border: 1px solid #84898d;
+	color:#749f2c;
+}
+
+.menu-buttons:active, .wish-menu-buttons:active {
+	background-color: #6d932e;
+}
+
+.menu-buttons-over, .wish-menu-buttons-over {
+	background-color: #475158;
+	border: 1px solid #84898d;
+	color:#dce1d2;
+}
+
+.menu-buttons-div {
+	padding-left:0px;
+	width:314px;
+	cursor:pointer;
+	height:45px;
+}
+
+.green-star-button {	
+	width:20px;
+	height:19px;
+	position: relative;
+	float: right;
+	top: 5px;
+	right: 7px;
+	cursor:pointer;
+}
+
+.green-star-std {
+    background: url('../images/green-star.png') no-repeat top right; 	
+}
+
+.green-star-over {
+    background: url('../images/white-star.png') no-repeat top right; 	
+}
+
+.add-button {
+	 width:15px;
+	 height:15px;
+	position: relative;
+	float: right;
+	top: 5px;
+	right: 7px;
+	cursor:pointer;
+}
+
+.add-button-std {
+     background: url('../images/add.png') no-repeat top right; 
+}
+
+.add-button-over {
+     background: url('../images/white-add.png') no-repeat top right; 
+}
+
+.browser-button {	
+	 width:15px;
+	 height:13px;
+	position: relative;
+	float: right;
+	top: 7px;
+	right: 7px;
+	cursor:pointer;
+}
+
+.browser-button-std {
+     background: url('../images/x.png') no-repeat top right; 
+}
+
+.browser-button-over {
+     background: url('../images/white-x.png') no-repeat top right; 
+}
+
+.search-pad {
+	padding-left: 70px;
+}
+
+.find-button {
+	background-color: #5d646c;
+	border: 1px solid #84898d;
+	width: 105px;
+	height: 42px;
+	color: #749f2c;
+	font-family: titillium_weblight;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 7px;
+	font-weight: bold;
+	position:relative;
+	cursor:pointer;
+}
+
+.arrow-nav-std {	
+	background: url('../images/arrow-more.png') no-repeat bottom center;
+}
+
+.arrow-nav-over {
+	background: url('../images/arrow-more-over.png') no-repeat bottom center;	
+}
+
+.arrow-nav:active, .arrow-nav-related:active {	
+	background: url('../images/arrow-more-on.png') no-repeat bottom center;	
+}
+
+.arrow-nav {
+	width: 47px;
+	height: 45px;
+	position: relative;
+	top: 443px;
+	margin: auto;
+}
+
+.arrow-nav-related {
+	width: 47px;
+	height: 45px;
+	position: relative;
+	margin: auto;
+}
+
+.integrate-text {
+	color:#5d646c;
+}
+
+.numberCircle {
+    border-radius: 50%;
+	width: 46px;
+	height: 46px;
+	padding: 8px;
+	background: #84888f;
+	color: #2c3640;
+	text-align: center;
+	font: 28px Arial, sans-serif;
+	font-weight: bold;
+}
+
+.main-body {
+	background: #b9bbbf;
+}
+
+.widget-box {
+	width: 235px;
+	height: 260px;
+}
+
+.widget-box-std {
+	background: url('../images/shadow-small.png');
+}
+
+.widget-box-over {
+	background: url('../images/shadow-small-over.png');
+}
+
+
+.no-pad {
+	padding: 0!important;
+}
+
+.auto-margin {
+	margin: 0 auto;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.grey-label {
+	width: 209px;
+	height: 90px;
+	top: 140px;
+	position: absolute;
+	left: 20px;
+	overflow: hidden;
+}
+
+.widget-img {
+	width:209px;
+	height:123px;
+	overflow:hidden;
+	left:13px;
+	top:4px;
+	position:absolute;
+	cursor:pointer;
+}
+
+.pad-one-line {
+	padding-top:10px;
+}
+
+.white-star {
+	background: url('../images/white-star.png') no-repeat;
+	width: 20px;
+	height: 18px;
+	right: 15px;
+	position: relative;
+	cursor:pointer;
+}
+
+.green-star {
+	background: url('../images/green-star.png') no-repeat;
+	width: 20px;
+	height: 18px;
+	right: 15px;
+	position: relative;
+	cursor:pointer;
+}
+
+.search-div select , .search-div-xs select{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   text-indent:0.01px;
+   text-overflow: "";
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.custom-dropdown:before, .custom-dropdown:after, .bootstrap-select:before, .bootstrap-select:after {
+    content: "";
+    pointer-events: none;
+    position: relative;
+}
+
+.custom-dropdown:after , .bootstrap-select:after, .bootstrap-select:hover:after{
+    /*content: url('../images/arrow.png');
+	right: 8px;
+	top: -30px;
+	/* z-index: 1; */
+	/*float: right;
+	position: relative;*/
+}
+
+.back-text {
+	background: url('../images/back.png') no-repeat;
+	width:199px;
+	height:45px;
+	margin:auto;
+	color: #749f2c;
+	font-family: titillium_weblight;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 9px;
+	font-weight: bold;
+}
+
+.back-text a{
+	text-decoration:none;
+	color: #749f2c;
+}
+
+.related-body {
+	background:#e4e6e9;
+}
+
+.text-body {
+	background: #e4ecef;
+}
+
+.tags-bg {
+	background:#a8abaf;
+	color:#424242;
+	width:200px;
+	font-size:14px;
+	font-family: titillium_weblight;
+	padding:10px;
+	margin-bottom: 5px;
+}
+
+.tag-pad {
+	position: relative;
+	bottom: 10px;
+}
+
+.related-tag-pad {
+	padding-left: 10px;
+}
+
+.img-centered {
+	margin:auto;
+}
+
+.pad-text-right {
+	padding-right: 20px;
+}
+
+.help-first {
+	left: -20px;
+	position:relative;
+}
+
+.help-second {
+	left: -10px;
+	position:relative;
+}
+
+.wishlist-box {
+	background: url('../images/wishlist-box.png') no-repeat;
+	width:475px;
+	height:91px;
+	position:relative;
+}
+
+.wish-img {
+	position: relative;
+	top: 6px;
+	left: 12px;
+}
+
+.wish-title {
+	position: relative;
+	top: 24px;
+	color: #fff;
+	font-weight: bold;
+	left: 30px;
+}
+
+
+.i-button {
+	width:19px;
+	height:24px;
+	position: relative;
+	float: right;
+	top: 3px;
+	right: 35px;
+	cursor:pointer;
+}
+
+.i-button-std {
+     background: url('../images/background/wishlist/i.png') no-repeat top right; 
+}
+
+.i-button-over {
+     background: url('../images/background/wishlist/i-over.png') no-repeat top right; 
+}
+
+.i-button:active {
+     background: url('../images/background/wishlist/i-on.png') no-repeat top right; 
+}
+
+
+.fav-button {
+	width:25px;
+	height:23px;
+	position: relative;
+	float: right;
+	top: 5px;
+	right: 20px;
+	cursor:pointer;
+}
+
+.fav-button-std {
+     background: url('../images/background/wishlist/fav.png') no-repeat top right; 
+}
+
+.fav-button-over {
+     background: url('../images/background/wishlist/fav-on.png') no-repeat top right; 
+}
+
+.fav-button:active {
+     background: url('../images/background/wishlist/fav-on.png') no-repeat top right; 
+}
+
+
+.delete-button {
+	width:22px;
+	height:20px;
+	position: relative;
+	float: right;
+	top: 5px;
+	right: 7px;
+	cursor:pointer;
+}
+
+.delete-button-std {
+     background: url('../images/background/wishlist/delete.png') no-repeat top right; 
+}
+
+.delete-button-over {
+     background: url('../images/background/wishlist/delete-on.png') no-repeat top right; 
+}
+
+.delete-button:active {
+     background: url('../images/background/wishlist/delete-on.png') no-repeat top right; 
+}
+
+.wish-widget-buttons {
+	position: relative;
+	top: 17px;
+	right: 20px;
+}
+
+.left-wish-box {
+	left: -10px;
+	position: relative;
+}

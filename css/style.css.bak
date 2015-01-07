@@ -1,0 +1,121 @@
+/* Browser Reset **************/
+* {
+	margin:0;
+	padding:0;
+}
+/* Gerneral *******************/
+body, html {
+	font-family:arial;
+	font-size:12px;
+}
+h1 {
+	color:#66bc29;
+	font-size:18px;
+	font-weight:normal;
+}
+h2 {
+	color:#8e908f;
+}
+p {
+}
+li {
+	list-style:none;
+}
+a:link, a:visited {
+	color:#8e908f;
+	font-weight:bold;
+}
+a:hover, a:active {
+	text-decoration:none;
+}
+
+ /* Content styles ************/
+#frame_bg {
+	background:url('../images/frame_bg.gif') repeat-y top;
+}
+
+#frame {
+	width:1000px;
+	margin:0 auto 0 auto;
+}
+
+/* Header *********************/
+#header {
+	height:100px;
+}
+#header_top_bar {
+	background:url('../images/top_bar_bg.gif') no-repeat top;
+	height:31px;
+	color:#ffffff;
+}
+#header_top_bar form {
+	position:absolute;
+	margin-left:658px;
+	top:5px;
+	padding:0 3px 3px 3px;
+}
+#header_top_bar input {
+	width:122px;
+	color:#8e908f;
+}
+#header_logo {
+	margin:10px 0 0 10px;
+}
+
+/* Content ********************/
+#content {
+}
+#content_left, #content_mid, #content_right {
+	float:left;
+	width:300px;
+	margin:0 0 10px 10px;
+	padding:10px;
+	background:url('../images/col_top.gif') no-repeat top;
+	border-bottom:1px solid #cccccc;
+}
+#content p {
+	margin:10px;
+	color:#8e908f;
+}
+
+#content_left img, #content_mid img, #content_right img {
+	float:left;
+	padding:0 10px 0 0;
+}
+#content_left ul, #content_mid ul, #content_right ul {
+	margin:10px 0 0px 0;
+	padding:0 0 10px 0;
+	background:url('../images/content_dotted_line.gif') no-repeat bottom;
+	}
+#content_left ul li a, #content_mid ul li a, #content_right ul li a {
+	font-size:12px;
+	padding:5px 0 0 0;
+	margin:5px 0 0 0;
+}
+#content_left ul li p, #content_mid ul li p, #content_right ul li p {
+	font-size:12px;
+	padding:0 0 0 10px;
+	margin:0;
+	width:290px;
+}
+#content_left ul, #content_mid ul, #content_right ul {
+	float:left;
+}
+
+/* Footer *********************/
+#footer {
+	height:93px;
+	background:url('../images/footer_bg.gif') repeat-x top;
+	xposition:absolute;
+	background-color:#cccccc;
+	bottom:100px;
+}
+#footer_logo {
+	float:left;
+	padding:45px 0 0 10px;
+}
+#footer_copyright {
+	float:right;
+	color:#999999;
+	padding:70px 10px 0;
+}
